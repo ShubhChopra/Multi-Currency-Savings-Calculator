@@ -4,6 +4,8 @@
 
 ### During making this application I came across a log of techniques that can be very useful in making attactive iOS application and are surprisingly easy to implement. I would like to discuss this with the help of images:
 
+[![Demo Vid](http://img.youtube.com/vi/nPXuqBEixL4/0.jpg)](http://www.youtube.com/watch?v=nPXuqBEixL4)
+
 1. <p align = "center"> <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img1.png width="200"> </p>
 
 This is the main screen where you can check the current excahnge rates based on selected currencies. For selecting currency I decided to use 2 different types of character set. For the base current I am using a vertical UIpicker and currency symbols and for the exchange currency, I am using 3 char curreny short code and a horizontal UIPicker. 
