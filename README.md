@@ -1,6 +1,6 @@
 # Multi-Currency-Savings-Calculator
 
-## I made this application for my personl use of looking at the current exchange rate and checking my current total savings overseas with interest calcualted in current exchange rate. I am using free Fixer api to get the current excahnge rates.
+## I made this application for my personl use of looking at the current exchange rate and checking my current total savings overseas with interest calculated in current exchange rate. I am using free Fixer api to get the current exchnge rates.
 
 ### During making this application I came across a log of techniques that can be very useful in making attactive iOS application and are surprisingly easy to implement. I would like to discuss this with the help of images:
 
