@@ -4,7 +4,7 @@
 
 ### During making this application I came across a log of techniques that can be very useful in making attactive iOS application and are surprisingly easy to implement. I would like to discuss this with the help of images:
 
-1. <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img1.png width="200"> 
+1. <p align = "center"> <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img1.png width="200"> </p>
 
 This is the main screen where you can check the current excahnge rates based on selected currencies. For selecting currency I decided to use 2 different types of character set. For the base current I am using a vertical UIpicker and currency symbols and for the exchange currency, I am using 3 char curreny short code and a horizontal UIPicker. 
 Cool way to change a vertical picker to horizontal one:
@@ -61,7 +61,27 @@ Lastly was the issue with having to dismiss the keyboard after I am done editing
     }
 ```
 
-2. <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img2.png width="200">
-3. <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img3.png width="200">
-4. <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img4.png width="200">
+2. <p align = "center"> <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img2.png width="200"> </p>
+
+For this section in learning about HTTP protocol handling in swift I refered to https://blog.apoorvmote.com/fetch-exchange-rate-internet-api-ios-swift/ .
+
+
+3.  <p align = "center"> <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img3.png width="200"> </p>
+
+For this section, to hold the data we first need a container class: 
+`Savings.swift`
+Then a custom table view cell
+`SavingsTableViewCell.swift`
+And the magic happens in fuctions below in `SavingTableViewController.swift` file.
+
+```override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+
+```
+
+There is a really good tutorial on how to design the floating cards type table view here 
+https://www.youtube.com/watch?v=ZEuoaTF1bok
+
+4. <p align = "center"> <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img4.png width="200"> </p>
 
