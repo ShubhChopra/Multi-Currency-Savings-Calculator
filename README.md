@@ -2,14 +2,14 @@
 
 ## I made this application for my personl use of looking at the current exchange rate and checking my current total savings overseas with interest calculated in current exchange rate. I am using free Fixer api to get the current exchnge rates.
 
-### During making this application I came across a log of techniques that can be very useful in making attactive iOS application and are surprisingly easy to implement. I would like to discuss this with the help of images:
-
 [![Demo Vid](http://img.youtube.com/vi/nPXuqBEixL4/0.jpg)](http://www.youtube.com/watch?v=nPXuqBEixL4)
+
+### While making this application I came across a lot of techniques that can be very useful in making attactive iOS application and are surprisingly easy to implement. I would like to discuss this with the help of images:
 
 1. <p align = "center"> <img src=https://github.com/ShubhChopra/Multi-Currency-Savings-Calculator/blob/master/imgs/img1.png width="200"> </p>
 
-This is the main screen where you can check the current excahnge rates based on selected currencies. For selecting currency I decided to use 2 different types of character set. For the base current I am using a vertical UIpicker and currency symbols and for the exchange currency, I am using 3 char curreny short code and a horizontal UIPicker. 
-Cool way to change a vertical picker to horizontal one:
+This is the main screen where you can check the current exchange rates based on selected currencies. For selecting currency I decided to use 2 different types of character set. For the base curreny, vertical UIpicker and currency symbols($, £) and for the exchange currency, I am using 3 char curreny short code(USD, INR etc) and a horizontal UIPicker. 
+Cool way to convert a vertical picker to horizontal one:
 
 ```
 self.selectedExchangeRatePickerYComponent = self.selectedExchangeRatePicker.frame.origin.y
@@ -30,7 +30,7 @@ func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int
         }
     }
 ```
-The exchange value `1.0` is a label so another issue I faced was dealing with changing the label values like I am textview but without the ugly cursur and white background, so I added a text view on top of the label (background, text, tint all clear color) and added the code snippit below to changed the label valued based on the invisible textview.
+The exchange value `1.0` is a label, I wanted to change the label values like I am textview but without the ugly cursur and white background, so I added a text view on top of the label (background, text, tint all clear color) and added the code snippit below to changed the label valued based on the invisible textview.
 
 ```
 func textViewDidChange(_ inputTextVal: UITextView) {
