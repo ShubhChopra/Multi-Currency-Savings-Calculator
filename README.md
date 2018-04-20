@@ -30,7 +30,8 @@ func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int
 ```
 The exchange value `1.0` is a label so another issue I faced was dealing with changing the label values like I am textview but without the ugly cursur and white background, so I added a text view on top of the label (background, text, tint all clear color) and added the code snippit below to changed the label valued based on the invisible textview.
 
-```func textViewDidChange(_ inputTextVal: UITextView) {
+```
+func textViewDidChange(_ inputTextVal: UITextView) {
         selectedCurrencyCode.text = inputTextVal.text
         
     }
