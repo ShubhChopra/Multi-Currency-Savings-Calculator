@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "fcf0dd0722dce468c3051a56c8ae530c"
+build_time: [1524182858, 330014000]
+inputs:
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/CustomeKeyboard/KeyboardViewController.swift": [1503080397, 0]

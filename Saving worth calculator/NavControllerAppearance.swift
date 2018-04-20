@@ -13,6 +13,7 @@ class NavControllerAppearance: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+       // self.navigationBar.backgroundColor = UIColor.init(red: 219, green: 255, blue: 129, alpha: 255)
         // Do any additional setup after loading the view.
     }
 

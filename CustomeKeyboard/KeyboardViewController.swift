@@ -10,7 +10,7 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController {
 
-    @IBOutlet var nextKeyboardButton: UIButton!
+    var NumberPadView: UIView!
     
     override func updateViewConstraints() {
         super.updateViewConstraints()
@@ -20,20 +20,17 @@ class KeyboardViewController: UIInputViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Perform custom UI setup here
-        self.nextKeyboardButton = UIButton(type: .system)
-        
-        self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
-        self.nextKeyboardButton.sizeToFit()
-        self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
-        
-        self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
-        
-        self.view.addSubview(self.nextKeyboardButton)
-        
-        self.nextKeyboardButton.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
-        self.nextKeyboardButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+        loadInterface()
+    }
+    func loadInterface() {
+        // load the nib file
+        var NumberPadNil = UINib(nibName: "NumberPad", bundle: nil)
+        // instantiate the view
+        NumberPadView = NumberPadNil.instantiate(withOwner: self, options: nil)[0] as! UIView
+        // add the interface to the main view
+        view.addSubview(NumberPadView)
+        // copy the background color
+        view.backgroundColor = NumberPadView.backgroundColor
     }
     
     override func didReceiveMemoryWarning() {
@@ -55,7 +52,6 @@ class KeyboardViewController: UIInputViewController {
         } else {
             textColor = UIColor.black
         }
-        self.nextKeyboardButton.setTitleColor(textColor, for: [])
     }
 
 }

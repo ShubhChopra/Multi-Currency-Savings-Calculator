@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CA4896831F45306200C0432E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896821F45306200C0432E /* AppDelegate.swift */; };
-		CA4896851F45306200C0432E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896841F45306200C0432E /* ViewController.swift */; };
+		CA4896851F45306200C0432E /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896841F45306200C0432E /* MainScreenViewController.swift */; };
 		CA4896881F45306200C0432E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4896861F45306200C0432E /* Main.storyboard */; };
 		CA48968B1F45306200C0432E /* Saving_worth_calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA4896891F45306200C0432E /* Saving_worth_calculator.xcdatamodeld */; };
 		CA48968D1F45306200C0432E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA48968C1F45306200C0432E /* Assets.xcassets */; };
 		CA4896901F45306200C0432E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA48968E1F45306200C0432E /* LaunchScreen.storyboard */; };
 		CA48969B1F45306200C0432E /* Saving_worth_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48969A1F45306200C0432E /* Saving_worth_calculatorTests.swift */; };
 		CA4896A61F45306200C0432E /* Saving_worth_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896A51F45306200C0432E /* Saving_worth_calculatorUITests.swift */; };
+		CA4896B81F45385F00C0432E /* AddSavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896B71F45385F00C0432E /* AddSavingsViewController.swift */; };
+		CA4896BA1F453BD100C0432E /* Savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896B91F453BD100C0432E /* Savings.swift */; };
+		CA4896BC1F4658D400C0432E /* AllCurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896BB1F4658D400C0432E /* AllCurrencyTableViewController.swift */; };
+		CA4896C11F46644200C0432E /* SavingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896BF1F46644200C0432E /* SavingsTableViewCell.swift */; };
+		CA4896C21F46644200C0432E /* SavingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4896C01F46644200C0432E /* SavingsTableViewCell.xib */; };
+		CA4896C41F46740500C0432E /* SavingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896C31F46740500C0432E /* SavingTableViewController.swift */; };
+		CA4896C61F473BC700C0432E /* NavControllerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896C51F473BC700C0432E /* NavControllerAppearance.swift */; };
+		CA4896CE1F475CFC00C0432E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4896CD1F475CFC00C0432E /* KeyboardViewController.swift */; };
+		CA4896D21F475CFC00C0432E /* CustomeKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA4896CB1F475CFC00C0432E /* CustomeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA4896D81F475D7C00C0432E /* NumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4896D71F475D7C00C0432E /* NumberPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +42,33 @@
 			remoteGlobalIDString = CA48967E1F45306200C0432E;
 			remoteInfo = "Saving worth calculator";
 		};
+		CA4896D01F475CFC00C0432E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA4896771F45306200C0432E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4896CA1F475CFC00C0432E;
+			remoteInfo = CustomeKeyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA4896D61F475CFC00C0432E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA4896D21F475CFC00C0432E /* CustomeKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CA48967F1F45306200C0432E /* Saving worth calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saving worth calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4896821F45306200C0432E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA4896841F45306200C0432E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA4896841F45306200C0432E /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		CA4896871F45306200C0432E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA48968A1F45306200C0432E /* Saving_worth_calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Saving_worth_calculator.xcdatamodel; sourceTree = "<group>"; };
 		CA48968C1F45306200C0432E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +80,19 @@
 		CA4896A11F45306200C0432E /* Saving worth calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saving worth calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4896A51F45306200C0432E /* Saving_worth_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving_worth_calculatorUITests.swift; sourceTree = "<group>"; };
 		CA4896A71F45306200C0432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4896B71F45385F00C0432E /* AddSavingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSavingsViewController.swift; sourceTree = "<group>"; };
+		CA4896B91F453BD100C0432E /* Savings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Savings.swift; sourceTree = "<group>"; };
+		CA4896BB1F4658D400C0432E /* AllCurrencyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCurrencyTableViewController.swift; sourceTree = "<group>"; };
+		CA4896BF1F46644200C0432E /* SavingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingsTableViewCell.swift; sourceTree = "<group>"; };
+		CA4896C01F46644200C0432E /* SavingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavingsTableViewCell.xib; sourceTree = "<group>"; };
+		CA4896C31F46740500C0432E /* SavingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingTableViewController.swift; sourceTree = "<group>"; };
+		CA4896C51F473BC700C0432E /* NavControllerAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavControllerAppearance.swift; sourceTree = "<group>"; };
+		CA4896CB1F475CFC00C0432E /* CustomeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4896CD1F475CFC00C0432E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		CA4896CF1F475CFC00C0432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4896D71F475D7C00C0432E /* NumberPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPad.xib; sourceTree = "<group>"; };
+		CA4896D91F47688200C0432E /* CustomeKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomeKeyboard.entitlements; sourceTree = "<group>"; };
+		CA4896DA1F476BE900C0432E /* Saving worth calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Saving worth calculator.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +117,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA4896C81F475CFC00C0432E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +133,7 @@
 				CA4896811F45306200C0432E /* Saving worth calculator */,
 				CA4896991F45306200C0432E /* Saving worth calculatorTests */,
 				CA4896A41F45306200C0432E /* Saving worth calculatorUITests */,
+				CA4896CC1F475CFC00C0432E /* CustomeKeyboard */,
 				CA4896801F45306200C0432E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +144,7 @@
 				CA48967F1F45306200C0432E /* Saving worth calculator.app */,
 				CA4896961F45306200C0432E /* Saving worth calculatorTests.xctest */,
 				CA4896A11F45306200C0432E /* Saving worth calculatorUITests.xctest */,
+				CA4896CB1F475CFC00C0432E /* CustomeKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +152,21 @@
 		CA4896811F45306200C0432E /* Saving worth calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CA4896DA1F476BE900C0432E /* Saving worth calculator.entitlements */,
+				CA4896B71F45385F00C0432E /* AddSavingsViewController.swift */,
 				CA4896821F45306200C0432E /* AppDelegate.swift */,
-				CA4896841F45306200C0432E /* ViewController.swift */,
+				CA4896841F45306200C0432E /* MainScreenViewController.swift */,
 				CA4896861F45306200C0432E /* Main.storyboard */,
 				CA48968C1F45306200C0432E /* Assets.xcassets */,
 				CA48968E1F45306200C0432E /* LaunchScreen.storyboard */,
 				CA4896911F45306200C0432E /* Info.plist */,
 				CA4896891F45306200C0432E /* Saving_worth_calculator.xcdatamodeld */,
+				CA4896B91F453BD100C0432E /* Savings.swift */,
+				CA4896BB1F4658D400C0432E /* AllCurrencyTableViewController.swift */,
+				CA4896BF1F46644200C0432E /* SavingsTableViewCell.swift */,
+				CA4896C01F46644200C0432E /* SavingsTableViewCell.xib */,
+				CA4896C31F46740500C0432E /* SavingTableViewController.swift */,
+				CA4896C51F473BC700C0432E /* NavControllerAppearance.swift */,
 			);
 			path = "Saving worth calculator";
 			sourceTree = "<group>";
@@ -128,6 +189,17 @@
 			path = "Saving worth calculatorUITests";
 			sourceTree = "<group>";
 		};
+		CA4896CC1F475CFC00C0432E /* CustomeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CA4896D91F47688200C0432E /* CustomeKeyboard.entitlements */,
+				CA4896CD1F475CFC00C0432E /* KeyboardViewController.swift */,
+				CA4896CF1F475CFC00C0432E /* Info.plist */,
+				CA4896D71F475D7C00C0432E /* NumberPad.xib */,
+			);
+			path = CustomeKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +210,12 @@
 				CA48967B1F45306200C0432E /* Sources */,
 				CA48967C1F45306200C0432E /* Frameworks */,
 				CA48967D1F45306200C0432E /* Resources */,
+				CA4896D61F475CFC00C0432E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CA4896D11F475CFC00C0432E /* PBXTargetDependency */,
 			);
 			name = "Saving worth calculator";
 			productName = "Saving worth calculator";
@@ -184,6 +258,23 @@
 			productReference = CA4896A11F45306200C0432E /* Saving worth calculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CA4896CA1F475CFC00C0432E /* CustomeKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4896D31F475CFC00C0432E /* Build configuration list for PBXNativeTarget "CustomeKeyboard" */;
+			buildPhases = (
+				CA4896C71F475CFC00C0432E /* Sources */,
+				CA4896C81F475CFC00C0432E /* Frameworks */,
+				CA4896C91F475CFC00C0432E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomeKeyboard;
+			productName = CustomeKeyboard;
+			productReference = CA4896CB1F475CFC00C0432E /* CustomeKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,7 +287,13 @@
 				TargetAttributes = {
 					CA48967E1F45306200C0432E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 94D9K3Y5FQ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					CA4896951F45306200C0432E = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -207,6 +304,16 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CA48967E1F45306200C0432E;
+					};
+					CA4896CA1F475CFC00C0432E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 94D9K3Y5FQ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -226,6 +333,7 @@
 				CA48967E1F45306200C0432E /* Saving worth calculator */,
 				CA4896951F45306200C0432E /* Saving worth calculatorTests */,
 				CA4896A01F45306200C0432E /* Saving worth calculatorUITests */,
+				CA4896CA1F475CFC00C0432E /* CustomeKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +346,7 @@
 				CA4896901F45306200C0432E /* LaunchScreen.storyboard in Resources */,
 				CA48968D1F45306200C0432E /* Assets.xcassets in Resources */,
 				CA4896881F45306200C0432E /* Main.storyboard in Resources */,
+				CA4896C21F46644200C0432E /* SavingsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +364,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA4896C91F475CFC00C0432E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4896D81F475D7C00C0432E /* NumberPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,8 +379,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA4896851F45306200C0432E /* ViewController.swift in Sources */,
+				CA4896C11F46644200C0432E /* SavingsTableViewCell.swift in Sources */,
+				CA4896C41F46740500C0432E /* SavingTableViewController.swift in Sources */,
+				CA4896B81F45385F00C0432E /* AddSavingsViewController.swift in Sources */,
+				CA4896851F45306200C0432E /* MainScreenViewController.swift in Sources */,
+				CA4896BC1F4658D400C0432E /* AllCurrencyTableViewController.swift in Sources */,
 				CA48968B1F45306200C0432E /* Saving_worth_calculator.xcdatamodeld in Sources */,
+				CA4896BA1F453BD100C0432E /* Savings.swift in Sources */,
+				CA4896C61F473BC700C0432E /* NavControllerAppearance.swift in Sources */,
 				CA4896831F45306200C0432E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +407,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA4896C71F475CFC00C0432E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4896CE1F475CFC00C0432E /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,6 +427,11 @@
 			isa = PBXTargetDependency;
 			target = CA48967E1F45306200C0432E /* Saving worth calculator */;
 			targetProxy = CA4896A21F45306200C0432E /* PBXContainerItemProxy */;
+		};
+		CA4896D11F475CFC00C0432E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA4896CA1F475CFC00C0432E /* CustomeKeyboard */;
+			targetProxy = CA4896D01F475CFC00C0432E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,7 +553,10 @@
 		CA4896AB1F45306200C0432E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Saving worth calculator/Saving worth calculator.entitlements";
+				DEVELOPMENT_TEAM = 94D9K3Y5FQ;
 				INFOPLIST_FILE = "Saving worth calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shubhchopra.Saving-worth-calculator";
@@ -429,7 +568,10 @@
 		CA4896AC1F45306200C0432E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Saving worth calculator/Saving worth calculator.entitlements";
+				DEVELOPMENT_TEAM = 94D9K3Y5FQ;
 				INFOPLIST_FILE = "Saving worth calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shubhchopra.Saving-worth-calculator";
@@ -492,6 +634,34 @@
 			};
 			name = Release;
 		};
+		CA4896D41F475CFC00C0432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CustomeKeyboard/CustomeKeyboard.entitlements;
+				DEVELOPMENT_TEAM = 94D9K3Y5FQ;
+				INFOPLIST_FILE = CustomeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shubhchopra.Saving-worth-calculator.CustomeKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA4896D51F475CFC00C0432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CustomeKeyboard/CustomeKeyboard.entitlements;
+				DEVELOPMENT_TEAM = 94D9K3Y5FQ;
+				INFOPLIST_FILE = CustomeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shubhchopra.Saving-worth-calculator.CustomeKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -525,6 +695,14 @@
 			buildConfigurations = (
 				CA4896B11F45306200C0432E /* Debug */,
 				CA4896B21F45306200C0432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA4896D31F475CFC00C0432E /* Build configuration list for PBXNativeTarget "CustomeKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4896D41F475CFC00C0432E /* Debug */,
+				CA4896D51F475CFC00C0432E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

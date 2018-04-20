@@ -1,0 +1,586 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyboardViewController"
+provides-nominal:
+- "15CustomeKeyboard0B14ViewControllerC"
+provides-member:
+- ["15CustomeKeyboard0B14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "NumberPadView"
+- "didReceiveMemoryWarning"
+- "loadInterface"
+- "textDidChange"
+- "textWillChange"
+- "updateViewConstraints"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "KeyboardViewController"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UIInputViewController"
+- !private "UIKeyboardAppearance"
+- !private "UINib"
+- "UITextInput"
+- "UIView"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["s7CVarArgP", "NumberPadView"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIKeyboardAppearance"]
+- !private ["s7CVarArgP", "UINib"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiate"]
+- !private ["s7CVarArgP", "loadInterface"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "textDocumentProxy"]
+- !private ["s7CVarArgP", "updateViewConstraints"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NumberPadView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIKeyboardAppearance"]
+- !private ["s28CustomDebugStringConvertibleP", "UINib"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiate"]
+- !private ["s28CustomDebugStringConvertibleP", "loadInterface"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "textDocumentProxy"]
+- !private ["s28CustomDebugStringConvertibleP", "updateViewConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "NumberPadView"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIKeyboardAppearance"]
+- !private ["s23CustomStringConvertibleP", "UINib"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiate"]
+- !private ["s23CustomStringConvertibleP", "loadInterface"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "textDocumentProxy"]
+- !private ["s23CustomStringConvertibleP", "updateViewConstraints"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "NumberPadView"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIKeyboardAppearance"]
+- !private ["s9EquatableP", "UINib"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "black"]
+- !private ["s9EquatableP", "dark"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiate"]
+- !private ["s9EquatableP", "loadInterface"]
+- !private ["s9EquatableP", "textDocumentProxy"]
+- !private ["s9EquatableP", "updateViewConstraints"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "NumberPadView"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIKeyboardAppearance"]
+- !private ["s8HashableP", "UINib"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "black"]
+- !private ["s8HashableP", "dark"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiate"]
+- !private ["s8HashableP", "loadInterface"]
+- !private ["s8HashableP", "textDocumentProxy"]
+- !private ["s8HashableP", "updateViewConstraints"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", ""]
+- ["15CustomeKeyboard0B14ViewControllerC", "NumberPadView"]
+- !private ["15CustomeKeyboard0B14ViewControllerC", "UIColor"]
+- !private ["15CustomeKeyboard0B14ViewControllerC", "UIKeyboardAppearance"]
+- !private ["15CustomeKeyboard0B14ViewControllerC", "UINib"]
+- ["15CustomeKeyboard0B14ViewControllerC", "UITextInput"]
+- ["15CustomeKeyboard0B14ViewControllerC", "UIView"]
+- ["15CustomeKeyboard0B14ViewControllerC", "deinit"]
+- ["15CustomeKeyboard0B14ViewControllerC", "didReceiveMemoryWarning"]
+- ["15CustomeKeyboard0B14ViewControllerC", "init"]
+- ["15CustomeKeyboard0B14ViewControllerC", "loadInterface"]
+- ["15CustomeKeyboard0B14ViewControllerC", "textDidChange"]
+- !private ["15CustomeKeyboard0B14ViewControllerC", "textDocumentProxy"]
+- ["15CustomeKeyboard0B14ViewControllerC", "textWillChange"]
+- ["15CustomeKeyboard0B14ViewControllerC", "updateViewConstraints"]
+- !private ["15CustomeKeyboard0B14ViewControllerC", "view"]
+- ["15CustomeKeyboard0B14ViewControllerC", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "NumberPadView"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIKeyboardAppearance"]
+- !private ["So8NSCodingP", "UINib"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadInterface"]
+- !private ["So8NSCodingP", "textDocumentProxy"]
+- !private ["So8NSCodingP", "updateViewConstraints"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "white"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "NumberPadView"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIKeyboardAppearance"]
+- !private ["So26NSExtensionRequestHandlingP", "UINib"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadInterface"]
+- !private ["So26NSExtensionRequestHandlingP", "textDocumentProxy"]
+- !private ["So26NSExtensionRequestHandlingP", "updateViewConstraints"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "NumberPadView"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIKeyboardAppearance"]
+- !private ["So8NSObjectC", "UINib"]
+- ["So8NSObjectC", "UITextInput"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiate"]
+- ["So8NSObjectC", "loadInterface"]
+- ["So8NSObjectC", "textDidChange"]
+- !private ["So8NSObjectC", "textDocumentProxy"]
+- ["So8NSObjectC", "textWillChange"]
+- ["So8NSObjectC", "updateViewConstraints"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So16NSObjectProtocolP", "NumberPadView"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIKeyboardAppearance"]
+- !private ["So16NSObjectProtocolP", "UINib"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "black"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiate"]
+- !private ["So16NSObjectProtocolP", "keyboardAppearance"]
+- !private ["So16NSObjectProtocolP", "loadInterface"]
+- !private ["So16NSObjectProtocolP", "textDocumentProxy"]
+- !private ["So16NSObjectProtocolP", "updateViewConstraints"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So8NSStringC", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "dark"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "NumberPadView"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIKeyboardAppearance"]
+- !private ["So21UIAppearanceContainerP", "UINib"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadInterface"]
+- !private ["So21UIAppearanceContainerP", "textDocumentProxy"]
+- !private ["So21UIAppearanceContainerP", "updateViewConstraints"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "NumberPadView"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIKeyboardAppearance"]
+- !private ["So18UIContentContainerP", "UINib"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadInterface"]
+- !private ["So18UIContentContainerP", "textDocumentProxy"]
+- !private ["So18UIContentContainerP", "updateViewConstraints"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "NumberPadView"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIKeyboardAppearance"]
+- !private ["So18UIFocusEnvironmentP", "UINib"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadInterface"]
+- !private ["So18UIFocusEnvironmentP", "textDocumentProxy"]
+- !private ["So18UIFocusEnvironmentP", "updateViewConstraints"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- ["So21UIInputViewControllerC", "NumberPadView"]
+- !private ["So21UIInputViewControllerC", "UIColor"]
+- !private ["So21UIInputViewControllerC", "UIKeyboardAppearance"]
+- !private ["So21UIInputViewControllerC", "UINib"]
+- ["So21UIInputViewControllerC", "UITextInput"]
+- ["So21UIInputViewControllerC", "UIView"]
+- ["So21UIInputViewControllerC", "didReceiveMemoryWarning"]
+- ["So21UIInputViewControllerC", "init"]
+- ["So21UIInputViewControllerC", "loadInterface"]
+- ["So21UIInputViewControllerC", "textDidChange"]
+- !private ["So21UIInputViewControllerC", "textDocumentProxy"]
+- ["So21UIInputViewControllerC", "textWillChange"]
+- ["So21UIInputViewControllerC", "updateViewConstraints"]
+- !private ["So21UIInputViewControllerC", "view"]
+- ["So21UIInputViewControllerC", "viewDidLoad"]
+- ["So21UIInputViewControllerC", ""]
+- !private ["So10UIKeyInputP", "keyboardAppearance"]
+- !private ["SC20UIKeyboardAppearanceO", "dark"]
+- !private ["So5UINibC", "init"]
+- !private ["So5UINibC", "instantiate"]
+- !private ["So30UIPasteConfigurationSupportingP", "NumberPadView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIKeyboardAppearance"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINib"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadInterface"]
+- !private ["So30UIPasteConfigurationSupportingP", "textDocumentProxy"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateViewConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "NumberPadView"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIKeyboardAppearance"]
+- !private ["So11UIResponderC", "UINib"]
+- ["So11UIResponderC", "UITextInput"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadInterface"]
+- ["So11UIResponderC", "textDidChange"]
+- !private ["So11UIResponderC", "textDocumentProxy"]
+- ["So11UIResponderC", "textWillChange"]
+- ["So11UIResponderC", "updateViewConstraints"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "NumberPadView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIKeyboardAppearance"]
+- !private ["So30UIResponderStandardEditActionsP", "UINib"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadInterface"]
+- !private ["So30UIResponderStandardEditActionsP", "textDocumentProxy"]
+- !private ["So30UIResponderStandardEditActionsP", "updateViewConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "NumberPadView"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIKeyboardAppearance"]
+- !private ["So16UIStateRestoringP", "UINib"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadInterface"]
+- !private ["So16UIStateRestoringP", "textDocumentProxy"]
+- !private ["So16UIStateRestoringP", "updateViewConstraints"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So19UITextDocumentProxyP", "keyboardAppearance"]
+- !private ["So19UITextInputDelegateP", "NumberPadView"]
+- !private ["So19UITextInputDelegateP", "UIColor"]
+- !private ["So19UITextInputDelegateP", "UIKeyboardAppearance"]
+- !private ["So19UITextInputDelegateP", "UINib"]
+- !private ["So19UITextInputDelegateP", "didReceiveMemoryWarning"]
+- !private ["So19UITextInputDelegateP", "init"]
+- !private ["So19UITextInputDelegateP", "loadInterface"]
+- !private ["So19UITextInputDelegateP", "textDocumentProxy"]
+- !private ["So19UITextInputDelegateP", "updateViewConstraints"]
+- !private ["So19UITextInputDelegateP", "view"]
+- !private ["So19UITextInputDelegateP", "viewDidLoad"]
+- ["So19UITextInputDelegateP", ""]
+- !private ["So17UITextInputTraitsP", "keyboardAppearance"]
+- !private ["So18UITraitEnvironmentP", "NumberPadView"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIKeyboardAppearance"]
+- !private ["So18UITraitEnvironmentP", "UINib"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadInterface"]
+- !private ["So18UITraitEnvironmentP", "textDocumentProxy"]
+- !private ["So18UITraitEnvironmentP", "updateViewConstraints"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So16UIViewControllerC", "NumberPadView"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UIKeyboardAppearance"]
+- !private ["So16UIViewControllerC", "UINib"]
+- ["So16UIViewControllerC", "UITextInput"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadInterface"]
+- ["So16UIViewControllerC", "textDidChange"]
+- !private ["So16UIViewControllerC", "textDocumentProxy"]
+- ["So16UIViewControllerC", "textWillChange"]
+- ["So16UIViewControllerC", "updateViewConstraints"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NumberPadView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIKeyboardAppearance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadInterface"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textDocumentProxy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateViewConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "15CustomeKeyboard0B14ViewControllerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So21UIInputViewControllerC"
+- !private "So10UIKeyInputP"
+- !private "SC20UIKeyboardAppearanceO"
+- !private "So5UINibC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So19UITextDocumentProxyP"
+- "So19UITextInputDelegateP"
+- !private "So17UITextInputTraitsP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f62a32d0251732c2acc071cb0e31c960"

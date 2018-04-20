@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CustomeKeyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Saving worth calculator.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>CA4896A01F45306200C0432E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA4896CA1F475CFC00C0432E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

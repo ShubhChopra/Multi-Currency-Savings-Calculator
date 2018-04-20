@@ -1,0 +1,275 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Savings"
+provides-nominal:
+- "23Saving_worth_calculator7SavingsC"
+- "23Saving_worth_calculator7SavingsC4KeysV"
+provides-member:
+- ["23Saving_worth_calculator7SavingsC", ""]
+- ["23Saving_worth_calculator7SavingsC4KeysV", ""]
+provides-dynamic-lookup:
+- "Currency"
+- "Date"
+- "Intrest"
+- "Memo"
+- "Principle"
+- "encode"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Float"
+- "NSCoder"
+- "NSCoding"
+- "NSDate"
+- "NSObject"
+- "Savings"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "Keys"]
+- !private ["s7CVarArgP", "currency"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "decodeFloat"]
+- !private ["s7CVarArgP", "decodeObject"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intrest"]
+- !private ["s7CVarArgP", "memo"]
+- !private ["s7CVarArgP", "principle"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Keys"]
+- !private ["s28CustomDebugStringConvertibleP", "currency"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intrest"]
+- !private ["s28CustomDebugStringConvertibleP", "memo"]
+- !private ["s28CustomDebugStringConvertibleP", "principle"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Keys"]
+- !private ["s23CustomStringConvertibleP", "currency"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "decodeFloat"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intrest"]
+- !private ["s23CustomStringConvertibleP", "memo"]
+- !private ["s23CustomStringConvertibleP", "principle"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Keys"]
+- !private ["s9EquatableP", "currency"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "decodeFloat"]
+- !private ["s9EquatableP", "decodeObject"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "intrest"]
+- !private ["s9EquatableP", "memo"]
+- !private ["s9EquatableP", "principle"]
+- ["s9EquatableP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Keys"]
+- !private ["s8HashableP", "currency"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "decodeFloat"]
+- !private ["s8HashableP", "decodeObject"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "intrest"]
+- !private ["s8HashableP", "memo"]
+- !private ["s8HashableP", "principle"]
+- ["s8HashableP", ""]
+- ["23Saving_worth_calculator7SavingsC4KeysV", "currency"]
+- ["23Saving_worth_calculator7SavingsC4KeysV", "date"]
+- ["23Saving_worth_calculator7SavingsC4KeysV", "init"]
+- ["23Saving_worth_calculator7SavingsC4KeysV", "intrest"]
+- ["23Saving_worth_calculator7SavingsC4KeysV", "memo"]
+- ["23Saving_worth_calculator7SavingsC4KeysV", "principle"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So7NSCoderC", "decodeFloat"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "Keys"]
+- !private ["So8NSCodingP", "currency"]
+- !private ["So8NSCodingP", "date"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intrest"]
+- !private ["So8NSCodingP", "memo"]
+- !private ["So8NSCodingP", "principle"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Currency"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "Intrest"]
+- !private ["So8NSObjectC", "Keys"]
+- ["So8NSObjectC", "Memo"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "NSDate"]
+- ["So8NSObjectC", "Principle"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "currency"]
+- ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "decodeFloat"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "intrest"]
+- ["So8NSObjectC", "memo"]
+- ["So8NSObjectC", "principle"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Keys"]
+- !private ["So16NSObjectProtocolP", "currency"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "decodeFloat"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "intrest"]
+- !private ["So16NSObjectProtocolP", "memo"]
+- !private ["So16NSObjectProtocolP", "principle"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["23Saving_worth_calculator7SavingsC", "Currency"]
+- ["23Saving_worth_calculator7SavingsC", "Date"]
+- ["23Saving_worth_calculator7SavingsC", "Float"]
+- ["23Saving_worth_calculator7SavingsC", "Intrest"]
+- ["23Saving_worth_calculator7SavingsC", "Keys"]
+- ["23Saving_worth_calculator7SavingsC", "Memo"]
+- ["23Saving_worth_calculator7SavingsC", "NSCoder"]
+- ["23Saving_worth_calculator7SavingsC", "NSDate"]
+- ["23Saving_worth_calculator7SavingsC", "Principle"]
+- ["23Saving_worth_calculator7SavingsC", "String"]
+- !private ["23Saving_worth_calculator7SavingsC", "currency"]
+- !private ["23Saving_worth_calculator7SavingsC", "date"]
+- ["23Saving_worth_calculator7SavingsC", "deinit"]
+- ["23Saving_worth_calculator7SavingsC", "encode"]
+- ["23Saving_worth_calculator7SavingsC", "encodeWithCoder"]
+- ["23Saving_worth_calculator7SavingsC", "init"]
+- !private ["23Saving_worth_calculator7SavingsC", "intrest"]
+- !private ["23Saving_worth_calculator7SavingsC", "memo"]
+- !private ["23Saving_worth_calculator7SavingsC", "principle"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Keys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intrest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "memo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "principle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "23Saving_worth_calculator7SavingsC4KeysV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- "23Saving_worth_calculator7SavingsC"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "a7f0d7b7de414cbc481eb57b2344cf6b"

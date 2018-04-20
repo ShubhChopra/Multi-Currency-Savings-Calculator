@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "8c5d5965dfb2ae0dbde289ee32a91e40"
+build_time: [1524188167, 140291000]
+inputs:
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/SavingsTableViewCell.swift": [1503066995, 0]
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/SavingTableViewController.swift": [1503132604, 0]
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/AddSavingsViewController.swift": [1503086550, 0]
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/MainScreenViewController.swift": [1524188167, 0]
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/AllCurrencyTableViewController.swift": [1503014056, 0]
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/Savings.swift": [1503033112, 0]
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/NavControllerAppearance.swift": [1503069651, 0]
+  "/Users/shubhchopra/Desktop/SavingsCalculator/Saving worth calculator/Saving worth calculator/AppDelegate.swift": [1503069256, 0]
